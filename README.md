@@ -9,8 +9,8 @@ The application allows users to log in using their email address, subscribe to s
 ## Features
 
 * Email-based user login
-* Subscribe and unsubscribe to supported stock tickers
-* Live stock price updates every second
+* Subscribe and unsubscribe to supported stock tickers (GOOG, TSLA, AMZN, META, NVDA)
+* Live stock price updates every second using a random stock price generator
 * Real-time dashboard updates without page refresh
 * Multi-user support with independent subscriptions
 * Shared stock prices across all connected users
