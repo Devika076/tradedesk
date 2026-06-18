@@ -10,8 +10,7 @@ export const STOCKS: Record<string, { name: string; base: number }> = {
 
 export const TICKER_LIST = Object.keys(STOCKS);
 
-const WS_URL = 'ws://localhost:8080';
-
+const WS_URL = 'wss://tradedesk-nyll.onrender.com';
 interface ClientStore {
   prices: Record<string, number>;
   history: Record<string, number[]>;
